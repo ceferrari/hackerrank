@@ -1,0 +1,81 @@
+{
+  // languages
+  "[csharp]": {
+    "editor.defaultFormatter": "ms-dotnettools.csharp",
+    "editor.tabSize": 4
+  },
+  // csharp
+  "csharp.format.enable": true,
+  "csharp.referencesCodeLens.enabled": true,
+  // editor
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": false
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.formatOnSave": true,
+  "editor.insertSpaces": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  // prettier
+  "prettier.arrowParens": "always",
+  "prettier.bracketSpacing": true,
+  "prettier.endOfLine": "lf",
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.jsxBracketSameLine": false,
+  "prettier.jsxSingleQuote": false,
+  "prettier.printWidth": 9999,
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.quoteProps": "as-needed",
+  "prettier.trailingComma": "none",
+  "prettier.prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.vueIndentScriptAndStyle": true,
+  // telemetry
+  "telemetry.enableCrashReporter": false,
+  "telemetry.enableTelemetry": false,
+  // terminal
+  "terminal.integrated.cwd": "",
+  "terminal.integrated.shell.windows": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+  // typescript
+  "typescript.format.enable": false,
+  "typescript.validate.enable": false,
+  // update
+  "update.showReleaseNotes": false,
+  // vsintellicode
+  "vsintellicode.modify.editor.suggestSelection": "disabled",
+  // workbench
+  "workbench.colorTheme": "Atom One Dark",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tips.enabled": false,
+  // performance
+  "search.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.vs": true,
+    "**/.vscode": true,
+    "**/bin": true,
+    "**/node_modules": true,
+    "**/obj": true,
+    "**/publish": true,
+    "**/wwwroot": true
+  },
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/.git": true,
+    "**/.vs": true,
+    "**/bin": true,
+    "**/node_modules": true,
+    "**/obj": true,
+    "**/publish": true
+  },
+  "files.watcherExclude": {
+    "**/.DS_Store/**": true,
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/.vs/**": true,
+    "**/node_modules/*/**": true
+  }
+}
